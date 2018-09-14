@@ -1,12 +1,11 @@
 from flask import Flask,render_template
+from graph import h
 app=Flask(__name__)
 
-@app.route('/<int:bars_count>')
-def chart(bars_count):
-	if bars_count <=0:
-		bars_count =1
-	return render_template("chart.html",bars_count=bars_count)	
-
-
+@app.route('/plot')
+def chart():
+	graph1=h();
+	return render_template('graph.html',graph1=graph1)
+	
 if __name__=="__main__":
 	app.run(debug=True,port=8080)
