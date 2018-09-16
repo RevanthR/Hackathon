@@ -1,0 +1,11 @@
+body{
+background-color: #FFF3CC;
+font-family: 'Lato', sans-serif;
+}
+.gcenter
+{display: block;
+	margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: double;
+    }

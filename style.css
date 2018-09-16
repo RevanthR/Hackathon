@@ -1,0 +1,46 @@
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.log{
+	background-color:#FFF3CC  ;
+	
+	margin-left: 35%;
+	margin-right: 35%;
+	text-align: center;
+	border-style: groove;
+}
+div{
+	border: black;
+
+	border-width:20px;
+	border-style: thick;
+font-size: 18px;
+
+	/*margin-left: 10%;
+	text-align: left;*/
+}
+body{
+		font-family: 'Lato', sans-serif;
+		font-size: 18px;
+		padding: 8px;
+	}
+input
+{
+	width: 200px;
+	display: block;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    padding: 6px;
+}
+#Data
+{
+	
+	font-size: 12px;
+	padding: 10px;
+
+}
